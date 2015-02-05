@@ -76,6 +76,9 @@
     <Filter Include="common\engine\interactive">
       <UniqueIdentifier>{7e344dd9-c1d5-43c6-a979-5bc9fe6427e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="common\editor">
+      <UniqueIdentifier>{2438d2d8-add1-4625-ac00-5779f17d402b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Misc.cpp">

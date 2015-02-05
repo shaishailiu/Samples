@@ -24,7 +24,7 @@ varying float normallight;
 
 vec4 testTexture()
 {
-	vec4 color = texture2D(tex0, texcoord0.xy);
+	vec4 color = vec4(1,1,1,1);//texture2D(tex0, texcoord0.xy);
 	color.xyz = color.xyz * normallight;
 	return color;
 }

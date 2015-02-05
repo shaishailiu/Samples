@@ -126,6 +126,5 @@ void MapLayer::loadMap(string fileUrl)
 		mapItemList.push_back(staticMesh);
 	}
 
-
 }
 

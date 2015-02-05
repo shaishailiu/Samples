@@ -441,7 +441,7 @@ int WINAPI WinMain( HINSTANCE  hInstance,
             eglSwapBuffers( g_egl.dsp, g_egl.surf );
          }
       }
-
+	  
 	  //engine->render();
 	  //getEngine()->render();
 	  //Engine::getEngine()->render();
