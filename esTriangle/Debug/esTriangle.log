@@ -1,0 +1,113 @@
+﻿生成启动时间为 2015/2/2 22:05:04。
+     1>项目“E:\opengl\amd\Samples\esTriangle\esTriangle.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./src /I./../common /I./../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\common\engine\display\Display3dStaticMesh.cpp
+         Display3dStaticMesh.cpp
+     1>e:\opengl\amd\samples\common\engine\math\matrix.h(491): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\opengl\amd\samples\common\engine\math\matrix.h(498): warning C4305: “初始化”: 从“double”到“float”截断
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\opengl\amd\Samples\esTriangle\Debug/esTriangle.exe" /INCREMENTAL /NOLOGO /LIBPATH:./../../lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\esTriangle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\esTriangle.lib" /MACHINE:X86 /SAFESEH Debug\AnimManager.obj
+         Debug\MeshManager.obj
+         Debug\StaticMeshManager.obj
+         Debug\Display3D.obj
+         Debug\Display3dMap.obj
+         Debug\Display3dMovie.obj
+         Debug\Display3dStaticMesh.obj
+         Debug\Display3dUI.obj
+         Debug\Display3dAxis.obj
+         Debug\Display3dCube.obj
+         Debug\Display3dGrid.obj
+         Debug\Engine.obj
+         Debug\InteractiveInput.obj
+         Debug\AvatarLayer.obj
+         Debug\BaseLayer.obj
+         Debug\GeomLayer.obj
+         Debug\LayerManager.obj
+         Debug\MapLayer.obj
+         Debug\UILayer.obj
+         Debug\LogTrace.obj
+         Debug\Core.obj
+         Debug\CombineParticle.obj
+         Debug\AxisMove.obj
+         Debug\AxisRotaion.obj
+         Debug\BaseAnim.obj
+         Debug\Centrifugal.obj
+         Debug\ColorChange.obj
+         Debug\ColorTransition.obj
+         Debug\ScaleAnim.obj
+         Debug\ScaleChange.obj
+         Debug\ScaleNoise.obj
+         Debug\SelfRotation.obj
+         Debug\Display3dBallParticle.obj
+         Debug\Display3dFaceParticle.obj
+         Debug\Display3dParticle.obj
+         Debug\FrameTimeUtils.obj
+         Debug\ParticleAnimFrameVo.obj
+         Debug\ParticleAnimVo.obj
+         Debug\ParticleDisplayVo.obj
+         Debug\ParticleItemVo.obj
+         Debug\ParticleManager.obj
+         Debug\ParticleTimeline.obj
+         Debug\ParticleVo.obj
+         Debug\TypeValue.obj
+         Debug\ProgramManager.obj
+         Debug\SceneData.obj
+         Debug\TextureManager.obj
+         Debug\BindAttrib.obj
+         Debug\BitmapDatas.obj
+         Debug\Camera3D.obj
+         Debug\json_reader.obj
+         Debug\json_value.obj
+         Debug\json_writer.obj
+         Debug\FileUtils.obj
+         Debug\Fps.obj
+         Debug\Memory.obj
+         Debug\PngUtil.obj
+         Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pnggccrd.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtrans.obj
+         Debug\pngvcrd.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         Debug\StringUtils.obj
+         Debug\TimeUtil.obj
+         Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzio.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\ioapi.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\unzip.obj
+         Debug\zutil.obj
+         Debug\AnimData.obj
+         Debug\MeshData.obj
+         Debug\ObjData.obj
+         Debug\ParticleBallData.obj
+         Debug\GamePhone.obj
+         Debug\UIControl.obj
+         Debug\gl_code.obj
+         Debug\Misc.obj
+         Debug\main.obj
+         esTriangle.vcxproj -> E:\opengl\amd\Samples\esTriangle\Debug\esTriangle.exe
+     1>已完成生成项目“E:\opengl\amd\Samples\esTriangle\esTriangle.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.74

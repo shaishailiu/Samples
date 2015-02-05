@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b12e2649-1fca-4b25-b99e-883ee1f5d8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{d1229c81-7f29-4107-95f5-9fddd13246ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{5118ac3a-b8fa-47c6-acc8-eda25d7725a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gles_api">
+      <UniqueIdentifier>{f1e559a1-6d87-4554-ad44-92a47b967c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine">
+      <UniqueIdentifier>{c65dad37-b51a-4a2e-a655-4b143b02fad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\program">
+      <UniqueIdentifier>{01f1a7ed-ebfd-483a-ba1c-bae834c37e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\log">
+      <UniqueIdentifier>{427c298b-ca38-4df8-95a8-364bee2693f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\display">
+      <UniqueIdentifier>{2b9c560c-26b4-4d1e-9343-4251a7f02be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\utils">
+      <UniqueIdentifier>{82e8a52a-bdac-40de-8871-edfe7aa50572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\layer">
+      <UniqueIdentifier>{8beaa695-18ab-4f6c-bb3e-5399e74424b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\shader">
+      <UniqueIdentifier>{5372bbb1-726e-49d0-8b5c-7c3352d80993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\vo">
+      <UniqueIdentifier>{06d969d7-057e-4b88-aa00-c3314c027c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\texture">
+      <UniqueIdentifier>{27378f14-8e06-45ce-b8bb-e04ff5bf9aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\utils\png">
+      <UniqueIdentifier>{208b4a1d-e025-48b7-96b8-4a4f98e907cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\utils\zlib">
+      <UniqueIdentifier>{142c5a81-646b-45d5-bac5-1e4b44b28080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\analysis">
+      <UniqueIdentifier>{cf433be2-4ecc-48ed-9029-2085bcdd16ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\mesh">
+      <UniqueIdentifier>{9498a902-0a19-43dc-80ac-9870212b29f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\game">
+      <UniqueIdentifier>{734b434b-d867-4a86-a992-1565fb618d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\math">
+      <UniqueIdentifier>{9f000199-402e-4946-8327-49e66a673a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\utils\decode">
+      <UniqueIdentifier>{7098fd3d-a20a-4bb6-a1ab-9f62fe91ca68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\utils\decode\json">
+      <UniqueIdentifier>{7f752658-055e-462e-b801-0eadccf75de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\particle">
+      <UniqueIdentifier>{90d83839-953d-430d-aba0-7ca8298d9b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\particle\ctrl">
+      <UniqueIdentifier>{8a18f459-4b32-44ad-a225-64bb2f7da976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\display\gemo">
+      <UniqueIdentifier>{8b009e0f-75a6-4a69-8098-ca8116c67b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\interactive">
+      <UniqueIdentifier>{7e344dd9-c1d5-43c6-a979-5bc9fe6427e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Misc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\main.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\Engine.cpp">
+      <Filter>common\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\log\LogTrace.cpp">
+      <Filter>common\engine\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\program\ProgramManager.cpp">
+      <Filter>common\engine\program</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\Display3D.cpp">
+      <Filter>common\engine\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\layer\LayerManager.cpp">
+      <Filter>common\engine\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\layer\MapLayer.cpp">
+      <Filter>common\engine\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\BindAttrib.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\FileUtils.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\vo\ObjData.cpp">
+      <Filter>common\engine\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\texture\TextureManager.cpp">
+      <Filter>common\engine\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\png.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngerror.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pnggccrd.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngget.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngmem.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngpread.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngread.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngrio.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngrtran.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngrutil.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngset.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngtrans.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngvcrd.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngwio.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngwrite.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngwtran.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\png\pngwutil.c">
+      <Filter>common\engine\utils\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\adler32.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\compress.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\crc32.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\deflate.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\gzio.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\infback.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\inffast.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\inflate.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\inftrees.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\ioapi.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\trees.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\uncompr.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\unzip.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\zlib\zutil.c">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\PngUtil.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\analysis\MeshManager.cpp">
+      <Filter>common\engine\analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\vo\MeshData.cpp">
+      <Filter>common\engine\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\vo\AnimData.cpp">
+      <Filter>common\engine\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\Display3dMovie.cpp">
+      <Filter>common\engine\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\layer\GeomLayer.cpp">
+      <Filter>common\engine\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\Camera3D.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\TimeUtil.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\layer\AvatarLayer.cpp">
+      <Filter>common\engine\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\game\GamePhone.cpp">
+      <Filter>common\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\Display3dMap.cpp">
+      <Filter>common\engine\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\math\Core.cpp">
+      <Filter>common\engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\StringUtils.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\layer\BaseLayer.cpp">
+      <Filter>common\engine\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\gl_code.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\Memory.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\analysis\AnimManager.cpp">
+      <Filter>common\engine\analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\Display3dUI.cpp">
+      <Filter>common\engine\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\layer\UILayer.cpp">
+      <Filter>common\engine\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\game\UIControl.cpp">
+      <Filter>common\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\Fps.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\decode\json_reader.cpp">
+      <Filter>common\engine\utils\decode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\decode\json_value.cpp">
+      <Filter>common\engine\utils\decode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\decode\json_writer.cpp">
+      <Filter>common\engine\utils\decode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleAnimFrameVo.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleAnimVo.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleDisplayVo.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleItemVo.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleVo.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\TypeValue.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\Display3dParticle.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\CombineParticle.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleManager.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\Display3dFaceParticle.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\BaseAnim.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ParticleTimeline.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\AxisRotaion.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\SelfRotation.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\Centrifugal.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\AxisMove.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\ColorChange.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\ScaleChange.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\ScaleAnim.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\ScaleNoise.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\FrameTimeUtils.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\SceneData.cpp">
+      <Filter>common\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\ctrl\ColorTransition.cpp">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\particle\Display3dBallParticle.cpp">
+      <Filter>common\engine\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\vo\ParticleBallData.cpp">
+      <Filter>common\engine\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\utils\BitmapDatas.cpp">
+      <Filter>common\engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\Display3dStaticMesh.cpp">
+      <Filter>common\engine\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\gemo\Display3dCube.cpp">
+      <Filter>common\engine\display\gemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\gemo\Display3dGrid.cpp">
+      <Filter>common\engine\display\gemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\display\gemo\Display3dAxis.cpp">
+      <Filter>common\engine\display\gemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\interactive\InteractiveInput.cpp">
+      <Filter>common\engine\interactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\analysis\StaticMeshManager.cpp">
+      <Filter>common\engine\analysis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Misc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ArgDefines.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gles_api\gles_types.h">
+      <Filter>src\gles_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\Engine.h">
+      <Filter>common\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\EngineConfig.h">
+      <Filter>common\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\log\LogTrace.h">
+      <Filter>common\engine\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\program\ProgramManager.h">
+      <Filter>common\engine\program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\Display3D.h">
+      <Filter>common\engine\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\BindAttrib.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\layer\LayerManager.h">
+      <Filter>common\engine\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\layer\BaseLayer.h">
+      <Filter>common\engine\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\layer\MapLayer.h">
+      <Filter>common\engine\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\FileUtils.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\vo\ObjData.h">
+      <Filter>common\engine\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\texture\TextureManager.h">
+      <Filter>common\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\png\png.h">
+      <Filter>common\engine\utils\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\png\pngconf.h">
+      <Filter>common\engine\utils\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\crc32.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\crypt.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\deflate.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\inffast.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\inffixed.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\inflate.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\inftrees.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\ioapi.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\trees.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\unzip.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\zconf.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\zlib.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\zlib\zutil.h">
+      <Filter>common\engine\utils\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\PngUtil.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\vo\MeshVo.h">
+      <Filter>common\engine\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\analysis\MeshManager.h">
+      <Filter>common\engine\analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\vo\MeshData.h">
+      <Filter>common\engine\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\analysis\AnimManager.h">
+      <Filter>common\engine\analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\vo\AnimData.h">
+      <Filter>common\engine\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\Display3dMovie.h">
+      <Filter>common\engine\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\layer\GeomLayer.h">
+      <Filter>common\engine\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\Camera3D.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\TimeUtil.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\layer\AvatarLayer.h">
+      <Filter>common\engine\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\game\GamePhone.h">
+      <Filter>common\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\Display3dMap.h">
+      <Filter>common\engine\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\math\Core.h">
+      <Filter>common\engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\math\Matrix.h">
+      <Filter>common\engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\math\Quaternion.h">
+      <Filter>common\engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\math\Vector.h">
+      <Filter>common\engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\StringUtils.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\Memory.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\Display3dUI.h">
+      <Filter>common\engine\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\layer\UILayer.h">
+      <Filter>common\engine\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\game\UIControl.h">
+      <Filter>common\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\Fps.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json_batchallocator.h">
+      <Filter>common\engine\utils\decode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\autolink.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\config.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\features.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\forwards.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\json.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\reader.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\value.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\decode\json\writer.h">
+      <Filter>common\engine\utils\decode\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\TypeValue.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleAnimFrameVo.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleAnimVo.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleDisplayVo.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleItemVo.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleVo.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\Display3dParticle.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\CombineParticle.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleManager.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\Display3dFaceParticle.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\BaseAnim.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleTimeline.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\AxisRotaion.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\SelfRotation.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\Centrifugal.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\AxisMove.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\ColorChange.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\ScaleChange.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\ScaleAnim.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\ScaleNoise.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\FrameTimeUtils.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\SceneData.h">
+      <Filter>common\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\ScaleAnimObj.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ctrl\ColorTransition.h">
+      <Filter>common\engine\particle\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\ParticleType.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\particle\Display3dBallParticle.h">
+      <Filter>common\engine\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\vo\ParticleBallData.h">
+      <Filter>common\engine\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\BitmapDatas.h">
+      <Filter>common\engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\math\MathUtils.h">
+      <Filter>common\engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\Display3dStaticMesh.h">
+      <Filter>common\engine\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\gemo\Display3dCube.h">
+      <Filter>common\engine\display\gemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\gemo\Display3dGrid.h">
+      <Filter>common\engine\display\gemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\display\gemo\Display3dAxis.h">
+      <Filter>common\engine\display\gemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\interactive\InteractiveInput.h">
+      <Filter>common\engine\interactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\analysis\StaticMeshManager.h">
+      <Filter>common\engine\analysis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\binary.dat">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\Fieldstone.tga">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\fragment.glsl">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\vertex.glsl">
+      <Filter>data</Filter>
+    </None>
+    <None Include="data\shader\display3dmovie_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dmovie_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dgrid_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dgrid_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dmap_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dmap_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dui_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dui_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dmovieshadow_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dmovieshadow_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="..\common\engine\utils\decode\json_internalarray.inl">
+      <Filter>common\engine\utils\decode</Filter>
+    </None>
+    <None Include="..\common\engine\utils\decode\json_internalmap.inl">
+      <Filter>common\engine\utils\decode</Filter>
+    </None>
+    <None Include="..\common\engine\utils\decode\json_valueiterator.inl">
+      <Filter>common\engine\utils\decode</Filter>
+    </None>
+    <None Include="data\shader\display3dfaceparticle_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dfaceparticle_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dballparticle_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dballparticle_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dcube_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dcube_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3daxis_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3daxis_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dstaticmesh_shader_fragment.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+    <None Include="data\shader\display3dstaticmesh_shader_vertex.glsl">
+      <Filter>data\shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\uniforms.txt">
+      <Filter>data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

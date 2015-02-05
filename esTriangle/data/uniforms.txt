@@ -1,0 +1,10 @@
+program mainProg ./data/vertex.glsl ./data/fragment.glsl
+//binaryProgram mainProg ./data/binary.dat
+link mainProg
+texture tex0 0 ./data/Fieldstone.tga
+uniform_mat4 mvp 1.0 0.0 0.0 0.0     0.0 1.0 0.0 0.0     0.0 0.0 1.0 0.0       0.0 0.0 0.0 1.0
+attribute position 0
+attribute color 1
+attribute texcoord 2
+link mainProg
+
