@@ -1,13 +1,7 @@
-﻿生成启动时间为 2015/2/6 18:52:58。
-     1>项目“E:\opengl\amd\amd\Samples\esTriangle\esTriangle.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./src /I./../common /I./../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\common\engine\Engine.cpp ..\common\engine\net\SocketManager.cpp
-         SocketManager.cpp
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         Engine.cpp
-       Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\opengl\amd\amd\Samples\esTriangle\Debug/esTriangle.exe" /INCREMENTAL /NOLOGO /LIBPATH:./../../lib pthreadVC2.lib pthreadVCE2.lib pthreadVSE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\esTriangle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\esTriangle.lib" /MACHINE:X86 /SAFESEH Debug\AnimManager.obj
+﻿生成启动时间为 2015/2/6 23:44:17。
+     1>项目“E:\opengl\amd\Samples\esTriangle\esTriangle.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\opengl\amd\Samples\esTriangle\Debug/esTriangle.exe" /INCREMENTAL /NOLOGO /LIBPATH:./../../lib pthreadVC2.lib pthreadVCE2.lib pthreadVSE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\esTriangle.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\esTriangle.lib" /MACHINE:X86 /SAFESEH Debug\AnimManager.obj
          Debug\MeshManager.obj
          Debug\StaticMeshManager.obj
          Debug\Display3D.obj
@@ -110,9 +104,10 @@
          Debug\gl_code.obj
          Debug\Misc.obj
          Debug\main.obj
-         esTriangle.vcxproj -> E:\opengl\amd\amd\Samples\esTriangle\Debug\esTriangle.exe
-     1>已完成生成项目“E:\opengl\amd\amd\Samples\esTriangle\esTriangle.vcxproj”(Build 个目标)的操作。
+     1>AnimManager.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         esTriangle.vcxproj -> E:\opengl\amd\Samples\esTriangle\Debug\esTriangle.exe
+     1>已完成生成项目“E:\opengl\amd\Samples\esTriangle\esTriangle.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.08
+已用时间 00:00:03.19

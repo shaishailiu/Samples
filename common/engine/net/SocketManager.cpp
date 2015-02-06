@@ -1,5 +1,6 @@
 #include "SocketManager.h"
 #include "log/LogTrace.h"
+#include "utils/Memory.h"
 
 SocketManager::SocketManager()
 {
@@ -38,6 +39,7 @@ void* SocketManager::connetting(void *arg)
 	bool isok = odSocket->Create(AF_INET, SOCK_STREAM, 0);
 	bool iscon = odSocket->Connect(manager->ip.c_str(), manager->port);
 	if (iscon){
+		trace("socket connet success!!");
 		manager->creatPonseThread();
 	}
 	else{
@@ -70,7 +72,26 @@ void* SocketManager::receiveData(void *arg)
 	while (true)
 	{
 		if (odSocket->Select() == -2){
-			trace("get data");
+			char recvBuf[2];// 获取请求头的 数据
+			int i = odSocket->Recv(recvBuf, 2, 0);
+			if (i==2)
+			{
+				short len = *(short*)&recvBuf[0];
+				//memcpy(&len, &recvBuf[0], sizeof(short));
+
+				char* messbody = new char[len];
+
+				int j = odSocket->Recv(messbody, len, 0);
+
+				short strLength;
+				memcpy(&strLength, &messbody[0], sizeof(short));
+
+				char *s = new char[strLength + 1];
+				memcpy(s, &messbody[2], strLength);
+				s[strLength] = 0;
+
+				trace(s);
+			}
 		}
 	}
 	return NULL;
