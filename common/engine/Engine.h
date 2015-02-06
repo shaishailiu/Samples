@@ -15,9 +15,12 @@ class MeshManager;
 class AnimManager;
 class ParticleManager;
 class StaticMeshManager;
+class SocketManager;
 class Camera3D;
 class UILayer;
 class Fps;
+
+#include "test/UnitTesting.h"
 
 class Engine
 {
@@ -34,6 +37,7 @@ public:
 	static UILayer *getUILyaer();
 	static ParticleManager *getParticleManager();
 	static StaticMeshManager *getStaticMeshManager();
+	static SocketManager *getSocketManager();
 	//static Fps *getFps();
 
 	EngineConfig *engineConfig;
@@ -44,7 +48,10 @@ public:
 	AnimManager *animManager;
 	ParticleManager *particleManager;
 	StaticMeshManager *staticMeshManager;
+	SocketManager *socketManager;
 	Camera3D *camera;
+
+	UnitTesting unittest;
 	//Fps *fps;
 
 	void resize(int $width,int $height);

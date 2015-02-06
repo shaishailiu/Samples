@@ -79,6 +79,18 @@
     <Filter Include="common\editor">
       <UniqueIdentifier>{2438d2d8-add1-4625-ac00-5779f17d402b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="common\engine\net">
+      <UniqueIdentifier>{219a809d-be38-459f-8e59-c8d730f5899e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\thread">
+      <UniqueIdentifier>{35913c7b-b558-4a2a-a9f5-34ae0c7fd0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\utils\pthread">
+      <UniqueIdentifier>{948891e2-c5fe-4819-bb06-b76b9b5832c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\engine\test">
+      <UniqueIdentifier>{b6ed19c5-d623-4bc5-a8b3-04524aebaf28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Misc.cpp">
@@ -378,6 +390,18 @@
     <ClCompile Include="..\common\engine\analysis\StaticMeshManager.cpp">
       <Filter>common\engine\analysis</Filter>
     </ClCompile>
+    <ClCompile Include="..\common\engine\thread\TestThread.cpp">
+      <Filter>common\engine\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\test\UnitTesting.cpp">
+      <Filter>common\engine\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\net\ODSocket.cpp">
+      <Filter>common\engine\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\engine\net\SocketManager.cpp">
+      <Filter>common\engine\net</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Misc.h">
@@ -670,6 +694,27 @@
     </ClInclude>
     <ClInclude Include="..\common\engine\analysis\StaticMeshManager.h">
       <Filter>common\engine\analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\pthread\pthread.h">
+      <Filter>common\engine\utils\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\pthread\sched.h">
+      <Filter>common\engine\utils\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\utils\pthread\semaphore.h">
+      <Filter>common\engine\utils\pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\thread\TestThread.h">
+      <Filter>common\engine\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\test\UnitTesting.h">
+      <Filter>common\engine\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\net\ODSocket.h">
+      <Filter>common\engine\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\engine\net\SocketManager.h">
+      <Filter>common\engine\net</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

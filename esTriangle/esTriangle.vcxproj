@@ -44,7 +44,7 @@
     <OutDir>Debug\</OutDir>
     <IntDir>Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\opengl\amd\Samples\common\engine\utils\decode;E:\opengl\amd\Samples\common\engine;$(IncludePath)</IncludePath>
+    <IncludePath>../common/engine/utils/pthread;../common/engine/utils/decode;../common/engine;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>Release\</OutDir>
@@ -70,7 +70,7 @@
       <ProgramDatabaseFile>$(OutDir)esTriangle.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pthreadVC2.lib;pthreadVCE2.lib;pthreadVSE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -114,6 +114,8 @@
     <ClCompile Include="..\common\engine\layer\UILayer.cpp" />
     <ClCompile Include="..\common\engine\log\LogTrace.cpp" />
     <ClCompile Include="..\common\engine\math\Core.cpp" />
+    <ClCompile Include="..\common\engine\net\ODSocket.cpp" />
+    <ClCompile Include="..\common\engine\net\SocketManager.cpp" />
     <ClCompile Include="..\common\engine\particle\CombineParticle.cpp" />
     <ClCompile Include="..\common\engine\particle\ctrl\AxisMove.cpp" />
     <ClCompile Include="..\common\engine\particle\ctrl\AxisRotaion.cpp" />
@@ -139,7 +141,9 @@
     <ClCompile Include="..\common\engine\particle\TypeValue.cpp" />
     <ClCompile Include="..\common\engine\program\ProgramManager.cpp" />
     <ClCompile Include="..\common\engine\SceneData.cpp" />
+    <ClCompile Include="..\common\engine\test\UnitTesting.cpp" />
     <ClCompile Include="..\common\engine\texture\TextureManager.cpp" />
+    <ClCompile Include="..\common\engine\thread\TestThread.cpp" />
     <ClCompile Include="..\common\engine\utils\BindAttrib.cpp" />
     <ClCompile Include="..\common\engine\utils\BitmapDatas.cpp" />
     <ClCompile Include="..\common\engine\utils\Camera3D.cpp" />
@@ -220,6 +224,8 @@
     <ClInclude Include="..\common\engine\math\Matrix.h" />
     <ClInclude Include="..\common\engine\math\Quaternion.h" />
     <ClInclude Include="..\common\engine\math\Vector.h" />
+    <ClInclude Include="..\common\engine\net\ODSocket.h" />
+    <ClInclude Include="..\common\engine\net\SocketManager.h" />
     <ClInclude Include="..\common\engine\particle\CombineParticle.h" />
     <ClInclude Include="..\common\engine\particle\ctrl\AxisMove.h" />
     <ClInclude Include="..\common\engine\particle\ctrl\AxisRotaion.h" />
@@ -247,7 +253,9 @@
     <ClInclude Include="..\common\engine\particle\TypeValue.h" />
     <ClInclude Include="..\common\engine\program\ProgramManager.h" />
     <ClInclude Include="..\common\engine\SceneData.h" />
+    <ClInclude Include="..\common\engine\test\UnitTesting.h" />
     <ClInclude Include="..\common\engine\texture\TextureManager.h" />
+    <ClInclude Include="..\common\engine\thread\TestThread.h" />
     <ClInclude Include="..\common\engine\utils\BindAttrib.h" />
     <ClInclude Include="..\common\engine\utils\BitmapDatas.h" />
     <ClInclude Include="..\common\engine\utils\Camera3D.h" />
@@ -266,6 +274,9 @@
     <ClInclude Include="..\common\engine\utils\PngUtil.h" />
     <ClInclude Include="..\common\engine\utils\png\png.h" />
     <ClInclude Include="..\common\engine\utils\png\pngconf.h" />
+    <ClInclude Include="..\common\engine\utils\pthread\pthread.h" />
+    <ClInclude Include="..\common\engine\utils\pthread\sched.h" />
+    <ClInclude Include="..\common\engine\utils\pthread\semaphore.h" />
     <ClInclude Include="..\common\engine\utils\StringUtils.h" />
     <ClInclude Include="..\common\engine\utils\TimeUtil.h" />
     <ClInclude Include="..\common\engine\utils\zlib\crc32.h" />

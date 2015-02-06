@@ -73,7 +73,7 @@ void LayerManager::update()
 	
 	glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);  
 	//glDepthMask(GL_FALSE);
-	uiLayer->update();
+	//uiLayer->update();
 }
 
 void LayerManager::updateTime( int t )

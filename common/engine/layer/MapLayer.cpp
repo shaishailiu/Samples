@@ -78,6 +78,7 @@ void MapLayer::update(){
 
 void MapLayer::loadMap(string fileUrl)
 {
+	return;
 	Memory *memory = FileUtils::loadFile(fileUrl.c_str());
 
 	if (memory == NULL){

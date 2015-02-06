@@ -5,6 +5,7 @@
 #include "texture/TextureManager.h"
 #include "particle/ParticleManager.h"
 #include "layer/LayerManager.h"
+#include "net/SocketManager.h"
 #include "layer/UILayer.h"
 #include "analysis/MeshManager.h"
 #include "analysis/AnimManager.h"
@@ -32,6 +33,7 @@ void Engine::start()
 	animManager = new AnimManager;
 	textureManager = new TextureManager;
 	particleManager = new ParticleManager;
+	socketManager = new SocketManager;
 	camera = new Camera3D;
 	//fps = new Fps;
 
@@ -47,7 +49,10 @@ void Engine::start()
 
 	_time = TimeUtil::getTimer();
 
+	//unittest.init();
 	trace("init complete!");
+	socketManager->connect("127.0.0.1", 6469);
+
 /*
 #if WIN32
 	string url = "./data/uniforms.txt";
@@ -160,6 +165,11 @@ ParticleManager * Engine::getParticleManager()
 StaticMeshManager * Engine::getStaticMeshManager()
 {
 	return getEngine()->staticMeshManager;
+}
+
+SocketManager * Engine::getSocketManager()
+{
+	return getEngine()->socketManager;
 }
 
 
