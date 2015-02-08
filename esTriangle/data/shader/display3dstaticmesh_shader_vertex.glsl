@@ -35,7 +35,7 @@ void main()
 
 	normallight = dot(nor,light);
 	
-	normallight += 1.0;
+	//normallight += 1.0;
 
 	//normallight *= 2.0;
 
